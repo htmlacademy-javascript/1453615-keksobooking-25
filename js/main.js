@@ -1,6 +1,6 @@
 const getRandomFloat = (startNumber, endNumber, decimal) => {
   if (startNumber < 0 || endNumber <  0) {
-    return null;
+    return -1;
   }
 
   if (startNumber === endNumber) {
